@@ -1,0 +1,221 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 16.07.2024 12:43:19.
+      
+      Проект "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:04.80
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/msys64/mingw64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+      Сборка начата 16.07.2024 12:43:25.
+      
+      Проект "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:04.51
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-32r6y6"
+      binary: "C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-32r6y6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-32r6y6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_36d9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 16.07.2024 12:43:32.
+        
+        Проект "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-32r6y6\\cmTC_36d9c.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_36d9c.dir\\Debug\\".
+          Создание каталога "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-32r6y6\\Debug\\".
+          Создание каталога "cmTC_36d9c.dir\\Debug\\cmTC_36d9c.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_36d9c.dir\\Debug\\cmTC_36d9c.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_36d9c.dir\\Debug\\cmTC_36d9c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36d9c.dir\\Debug\\\\" /Fd"cmTC_36d9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\msys64\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_36d9c.dir\\Debug\\\\" /Fd"cmTC_36d9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\msys64\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-32r6y6\\Debug\\cmTC_36d9c.exe" /INCREMENTAL /ILK:"cmTC_36d9c.dir\\Debug\\cmTC_36d9c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-32r6y6/Debug/cmTC_36d9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-32r6y6/Debug/cmTC_36d9c.lib" /MACHINE:X64  /machine:x64 cmTC_36d9c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_36d9c.vcxproj -> C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-32r6y6\\Debug\\cmTC_36d9c.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_36d9c.dir\\Debug\\cmTC_36d9c.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_36d9c.dir\\Debug\\cmTC_36d9c.tlog\\cmTC_36d9c.lastbuildstate".
+        Сборка проекта "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-32r6y6\\cmTC_36d9c.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:03.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/msys64/mingw64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-9ewyfb"
+      binary: "C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-9ewyfb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-9ewyfb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_55954.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && Версия MSBuild 17.7.2+d6990bcfa для .NET Framework
+        Сборка начата 16.07.2024 12:43:37.
+        
+        Проект "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-9ewyfb\\cmTC_55954.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Создание каталога "cmTC_55954.dir\\Debug\\".
+          Создание каталога "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-9ewyfb\\Debug\\".
+          Создание каталога "cmTC_55954.dir\\Debug\\cmTC_55954.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_55954.dir\\Debug\\cmTC_55954.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_55954.dir\\Debug\\cmTC_55954.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55954.dir\\Debug\\\\" /Fd"cmTC_55954.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\msys64\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.37.32822 для x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_55954.dir\\Debug\\\\" /Fd"cmTC_55954.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\msys64\\mingw64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-9ewyfb\\Debug\\cmTC_55954.exe" /INCREMENTAL /ILK:"cmTC_55954.dir\\Debug\\cmTC_55954.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-9ewyfb/Debug/cmTC_55954.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/educational-practice/out/build/GCC 13.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-9ewyfb/Debug/cmTC_55954.lib" /MACHINE:X64  /machine:x64 cmTC_55954.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_55954.vcxproj -> C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-9ewyfb\\Debug\\cmTC_55954.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_55954.dir\\Debug\\cmTC_55954.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_55954.dir\\Debug\\cmTC_55954.tlog\\cmTC_55954.lastbuildstate".
+        Сборка проекта "C:\\educational-practice\\out\\build\\GCC 13.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-9ewyfb\\cmTC_55954.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:03.86
+        
+      exitCode: 0
+...
