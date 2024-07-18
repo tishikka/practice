@@ -11,6 +11,7 @@ public:
     Player();
     void jump();
     void update();
+    void reset();
 private:
     bool isJumping;
     float jumpHeight;

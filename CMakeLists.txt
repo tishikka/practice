@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(game VERSION 0.1.0 LANGUAGES C CXX)
 
-add_executable(game main.cpp)
+add_executable(game main.cpp background.cpp player.cpp road.cpp coins.cpp)
 
 include(CTest)
 enable_testing()

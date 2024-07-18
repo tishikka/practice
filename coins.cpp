@@ -22,3 +22,8 @@ void CoinCollector::collectCoin() {
 int CoinCollector::getCoinsCollected() {
     return coinsCollected;
 }
+
+void CoinCollector::reset() {
+    coinsCollected = 0;
+}
+
